@@ -16,7 +16,7 @@ To use this page, simply clone or download the repository to your local machine,
 ## Replacing Placeholder Images
 1) Locate the Images: Find the "imgs" folder in the project directory.
 2) Add Your Images: Upload your desired images to this folder (imgs).
-3) Update the HTML File: Open the index.html file and locate the <img> tags within the button elements.
+3) Update the HTML File: Open the index.html file and locate the "img" tags within the button elements.
 4) Change the Source: Replace the src attribute value with the path of your new images.
 
 ## Updating Links
