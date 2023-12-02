@@ -1,0 +1,68 @@
+body {
+    background: #f6f6f6;
+    overflow-x: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    box-sizing: border-box;
+}
+
+.animation-parent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    transform: scale(1.1, 1.2);
+    -webkit-transform: scale(1.1, 1.2); /* Safari and Chrome */
+    -moz-transform: scale(1.1, 1.2); /* Firefox */
+    -ms-transform: scale(1.1, 1.2); /* IE 9+ */
+    -o-transform: scale(1.1, 1.2); /* Opera */
+}
+
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+    margin-top: -20px;
+}
+.swing img { 
+    display: block;
+}
+
+.selection {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.selection a:hover {
+    transform: scale(1.1);
+}
+
+.selection a {
+    transition: all 0.5s;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color: rgba(231, 231, 231, 1);
+    padding: 10px;
+    height: 100px;
+    margin: 10px;
+}
+
+.github {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+ 
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
