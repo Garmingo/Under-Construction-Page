@@ -20,7 +20,7 @@ To use this page, simply clone or download the repository to your local machine,
 4) Change the Source: Replace the src attribute value with the path of your new images.
 
 ## Updating Links
-1) Locate the Buttons: In the index.html file, find the "<a>" tags corresponding to each button.
+1) Locate the Buttons: In the index.html file, find the "a" tags corresponding to each button.
 2) Change the Href Attribute: Replace the href attribute value with your desired link.
 
 ## Deployment
